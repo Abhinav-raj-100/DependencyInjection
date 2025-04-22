@@ -1,7 +1,7 @@
 package FactoryMethod;
 
-public class DieselEngine implements  IEngine{
 
+public class DieselEngine implements  IEngine{
 
     @Override
     public void start() {

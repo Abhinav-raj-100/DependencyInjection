@@ -1,9 +1,11 @@
 package FactoryMethod;
 
+// example of factory method and achieving the loose coupling.
 public class Car {
     private IEngine engine;
 
 
+    // setter method for dependency injection
     public void drive(EngineFactory engineFactory)
     {
         engine =  engineFactory.createInstance();
